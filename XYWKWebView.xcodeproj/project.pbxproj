@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		146087F79FC94F8766FF06E0 /* libPods-XYWKWebViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9A172E1BB49226095354F1 /* libPods-XYWKWebViewTests.a */; };
+		3AC7DEB2EF50657120E6A6C3 /* libPods-XYWKWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AD91E9CB90B71615B68027B /* libPods-XYWKWebView.a */; };
 		3C3EFB1F21AFC1EB00D0C8B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB1E21AFC1EB00D0C8B8 /* AppDelegate.m */; };
 		3C3EFB2221AFC1EB00D0C8B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB2121AFC1EB00D0C8B8 /* ViewController.m */; };
 		3C3EFB2521AFC1EB00D0C8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C3EFB2321AFC1EB00D0C8B8 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		3C3EFB2D21AFC1EC00D0C8B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB2C21AFC1EC00D0C8B8 /* main.m */; };
 		3C3EFB3721AFC1EC00D0C8B8 /* XYWKWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB3621AFC1EC00D0C8B8 /* XYWKWebViewTests.m */; };
 		3C3EFB4221AFC1EC00D0C8B8 /* XYWKWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB4121AFC1EC00D0C8B8 /* XYWKWebViewUITests.m */; };
+		3C3EFB5221AFC22700D0C8B8 /* XYWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3EFB5121AFC22700D0C8B8 /* XYWKWebViewController.m */; };
+		DC712844D8F69BEEC495052D /* libPods-XYWKWebViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 724CDDBC0FC644CFBEEA8C28 /* libPods-XYWKWebViewUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		106EEDF15F8A8D93235E2C82 /* Pods-XYWKWebViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebViewUITests/Pods-XYWKWebViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		31A36E529D3B951481CF982F /* Pods-XYWKWebViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebViewUITests/Pods-XYWKWebViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3C3EFB1A21AFC1EB00D0C8B8 /* XYWKWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYWKWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3EFB1D21AFC1EB00D0C8B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C3EFB1E21AFC1EB00D0C8B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		3C3EFB3D21AFC1EC00D0C8B8 /* XYWKWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYWKWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C3EFB4121AFC1EC00D0C8B8 /* XYWKWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWKWebViewUITests.m; sourceTree = "<group>"; };
 		3C3EFB4321AFC1EC00D0C8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C3EFB5021AFC22700D0C8B8 /* XYWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWKWebViewController.h; sourceTree = "<group>"; };
+		3C3EFB5121AFC22700D0C8B8 /* XYWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWKWebViewController.m; sourceTree = "<group>"; };
+		724CDDBC0FC644CFBEEA8C28 /* libPods-XYWKWebViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYWKWebViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7976E891986BC58EE71F101B /* Pods-XYWKWebViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebViewTests/Pods-XYWKWebViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8AD91E9CB90B71615B68027B /* libPods-XYWKWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYWKWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D9A172E1BB49226095354F1 /* libPods-XYWKWebViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XYWKWebViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA67884F23829DB617F9736F /* Pods-XYWKWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebView/Pods-XYWKWebView.release.xcconfig"; sourceTree = "<group>"; };
+		F859F48667C43B64499C91DA /* Pods-XYWKWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebView/Pods-XYWKWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		FAB169BE0A7793BA95CD21FA /* Pods-XYWKWebViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYWKWebViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XYWKWebViewTests/Pods-XYWKWebViewTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AC7DEB2EF50657120E6A6C3 /* libPods-XYWKWebView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				146087F79FC94F8766FF06E0 /* libPods-XYWKWebViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC712844D8F69BEEC495052D /* libPods-XYWKWebViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,8 @@
 				3C3EFB3521AFC1EC00D0C8B8 /* XYWKWebViewTests */,
 				3C3EFB4021AFC1EC00D0C8B8 /* XYWKWebViewUITests */,
 				3C3EFB1B21AFC1EB00D0C8B8 /* Products */,
+				8728F82E661E70359AB9545C /* Pods */,
+				8D3F6404F736F028DFD7A1C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +121,7 @@
 		3C3EFB1C21AFC1EB00D0C8B8 /* XYWKWebView */ = {
 			isa = PBXGroup;
 			children = (
+				3C3EFB4F21AFC20300D0C8B8 /* XYWKWebViewController */,
 				3C3EFB1D21AFC1EB00D0C8B8 /* AppDelegate.h */,
 				3C3EFB1E21AFC1EB00D0C8B8 /* AppDelegate.m */,
 				3C3EFB2021AFC1EB00D0C8B8 /* ViewController.h */,
@@ -132,6 +153,38 @@
 			path = XYWKWebViewUITests;
 			sourceTree = "<group>";
 		};
+		3C3EFB4F21AFC20300D0C8B8 /* XYWKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3C3EFB5021AFC22700D0C8B8 /* XYWKWebViewController.h */,
+				3C3EFB5121AFC22700D0C8B8 /* XYWKWebViewController.m */,
+			);
+			path = XYWKWebViewController;
+			sourceTree = "<group>";
+		};
+		8728F82E661E70359AB9545C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F859F48667C43B64499C91DA /* Pods-XYWKWebView.debug.xcconfig */,
+				AA67884F23829DB617F9736F /* Pods-XYWKWebView.release.xcconfig */,
+				7976E891986BC58EE71F101B /* Pods-XYWKWebViewTests.debug.xcconfig */,
+				FAB169BE0A7793BA95CD21FA /* Pods-XYWKWebViewTests.release.xcconfig */,
+				106EEDF15F8A8D93235E2C82 /* Pods-XYWKWebViewUITests.debug.xcconfig */,
+				31A36E529D3B951481CF982F /* Pods-XYWKWebViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D3F6404F736F028DFD7A1C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AD91E9CB90B71615B68027B /* libPods-XYWKWebView.a */,
+				8D9A172E1BB49226095354F1 /* libPods-XYWKWebViewTests.a */,
+				724CDDBC0FC644CFBEEA8C28 /* libPods-XYWKWebViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +192,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3EFB4621AFC1EC00D0C8B8 /* Build configuration list for PBXNativeTarget "XYWKWebView" */;
 			buildPhases = (
+				4128B1CC81C9DCB361AE322E /* [CP] Check Pods Manifest.lock */,
 				3C3EFB1621AFC1EB00D0C8B8 /* Sources */,
 				3C3EFB1721AFC1EB00D0C8B8 /* Frameworks */,
 				3C3EFB1821AFC1EB00D0C8B8 /* Resources */,
@@ -156,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3EFB4921AFC1EC00D0C8B8 /* Build configuration list for PBXNativeTarget "XYWKWebViewTests" */;
 			buildPhases = (
+				C3AAACD0F3E3E0BD8FAA1887 /* [CP] Check Pods Manifest.lock */,
 				3C3EFB2E21AFC1EC00D0C8B8 /* Sources */,
 				3C3EFB2F21AFC1EC00D0C8B8 /* Frameworks */,
 				3C3EFB3021AFC1EC00D0C8B8 /* Resources */,
@@ -174,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C3EFB4C21AFC1EC00D0C8B8 /* Build configuration list for PBXNativeTarget "XYWKWebViewUITests" */;
 			buildPhases = (
+				717D3FA0A1C77D9E7D80B402 /* [CP] Check Pods Manifest.lock */,
 				3C3EFB3921AFC1EC00D0C8B8 /* Sources */,
 				3C3EFB3A21AFC1EC00D0C8B8 /* Frameworks */,
 				3C3EFB3B21AFC1EC00D0C8B8 /* Resources */,
@@ -257,6 +313,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4128B1CC81C9DCB361AE322E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYWKWebView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		717D3FA0A1C77D9E7D80B402 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYWKWebViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3AAACD0F3E3E0BD8FAA1887 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XYWKWebViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3C3EFB1621AFC1EB00D0C8B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +389,7 @@
 			files = (
 				3C3EFB2221AFC1EB00D0C8B8 /* ViewController.m in Sources */,
 				3C3EFB2D21AFC1EC00D0C8B8 /* main.m in Sources */,
+				3C3EFB5221AFC22700D0C8B8 /* XYWKWebViewController.m in Sources */,
 				3C3EFB1F21AFC1EB00D0C8B8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,10 +559,12 @@
 		};
 		3C3EFB4721AFC1EC00D0C8B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F859F48667C43B64499C91DA /* Pods-XYWKWebView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYWKWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +577,12 @@
 		};
 		3C3EFB4821AFC1EC00D0C8B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA67884F23829DB617F9736F /* Pods-XYWKWebView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYWKWebView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,6 +595,7 @@
 		};
 		3C3EFB4A21AFC1EC00D0C8B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7976E891986BC58EE71F101B /* Pods-XYWKWebViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -483,6 +614,7 @@
 		};
 		3C3EFB4B21AFC1EC00D0C8B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB169BE0A7793BA95CD21FA /* Pods-XYWKWebViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -501,6 +633,7 @@
 		};
 		3C3EFB4D21AFC1EC00D0C8B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 106EEDF15F8A8D93235E2C82 /* Pods-XYWKWebViewUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYWKWebViewUITests/Info.plist;
@@ -518,6 +651,7 @@
 		};
 		3C3EFB4E21AFC1EC00D0C8B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A36E529D3B951481CF982F /* Pods-XYWKWebViewUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = XYWKWebViewUITests/Info.plist;
